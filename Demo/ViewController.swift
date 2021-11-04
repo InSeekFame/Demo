@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         print("Swift分支")
         print("OC分支")
         print("效果分支")
+      print("NJ COMMIT")
     }
 
 
