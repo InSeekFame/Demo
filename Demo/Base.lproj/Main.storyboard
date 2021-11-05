@@ -55,6 +55,44 @@
             </objects>
             <point key="canvasLocation" x="1872" y="53"/>
         </scene>
+        <!--Date PickerVC-->
+        <scene sceneID="UU1-bG-wT5">
+            <objects>
+                <viewController storyboardIdentifier="DatePickerVCID" id="rxW-rx-6AX" customClass="DatePickerVC" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hdR-vp-IvF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqA-vx-8AI">
+                                <rect key="frame" x="73" y="243" width="149" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="datePicker"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="rxW-rx-6AX" eventType="touchUpInside" id="Tq8-Pc-45K"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="请选择时间" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="emH-Ox-XRn">
+                                <rect key="frame" x="52" y="155" width="317" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="rxW-rx-6AX" id="2EF-bS-Zio"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1ou-ys-zry"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="emH-Ox-XRn" id="Bos-Ob-HE3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Jw-zA-m9j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2686.9565217391305" y="52.901785714285715"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="OqW-Sk-Abo">
             <objects>

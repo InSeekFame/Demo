@@ -31,9 +31,11 @@ class ViewController: UIViewController {
     
     titleList.append("Todo：泛型，日期，属性包装器")
     titleList.append("Todo：TableList")
+    titleList.append("Todo：DatePicker")
     
     vcList.append(getVC("Todo1VCID"))
     vcList.append(TableTodoVC())
+    vcList.append(getVC("DatePickerVCID"))
     
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     tableView.delegate = self
