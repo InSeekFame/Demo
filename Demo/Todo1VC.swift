@@ -15,8 +15,11 @@ class Todo1VC: UIViewController {
       view.backgroundColor = .white
       
       
+      ///日期Demo
+//      DateDemo().todo()
+      //属性包装器Demo
+      PropertyWrapperDemo().todo()
       
-      DateDemo().todo()
       
     }
     

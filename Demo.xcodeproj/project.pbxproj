@@ -19,6 +19,7 @@
 		AE1E1FC7CB1D61A31D93389C /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42502101F6FD3A84A1BFD5C /* Pods_Demo.framework */; };
 		E31547BF2733D23900BD29E3 /* Todo1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31547BE2733D23900BD29E3 /* Todo1VC.swift */; };
 		E31547C12733E0F600BD29E3 /* DateDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31547C02733E0F600BD29E3 /* DateDemo.swift */; };
+		E31547C32733E6E900BD29E3 /* PropertyWrapperDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31547C22733E6E900BD29E3 /* PropertyWrapperDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		B0BA2E0A3BACD63A30AAC13B /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		E31547BE2733D23900BD29E3 /* Todo1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo1VC.swift; sourceTree = "<group>"; };
 		E31547C02733E0F600BD29E3 /* DateDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDemo.swift; sourceTree = "<group>"; };
+		E31547C22733E6E900BD29E3 /* PropertyWrapperDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperDemo.swift; sourceTree = "<group>"; };
 		F42502101F6FD3A84A1BFD5C /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				047F1D73271AD07600F60636 /* ViewController.swift */,
 				E31547BE2733D23900BD29E3 /* Todo1VC.swift */,
 				E31547C02733E0F600BD29E3 /* DateDemo.swift */,
+				E31547C22733E6E900BD29E3 /* PropertyWrapperDemo.swift */,
 				047F1D75271AD07600F60636 /* Main.storyboard */,
 				047F1D78271AD07B00F60636 /* Assets.xcassets */,
 				047F1D7A271AD07B00F60636 /* LaunchScreen.storyboard */,
@@ -154,7 +157,6 @@
 				8A54736D9FC3EF0B7A8FE71E /* Pods-Demo.debug.xcconfig */,
 				B0BA2E0A3BACD63A30AAC13B /* Pods-Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -334,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31547BF2733D23900BD29E3 /* Todo1VC.swift in Sources */,
+				E31547C32733E6E900BD29E3 /* PropertyWrapperDemo.swift in Sources */,
 				047F1D74271AD07600F60636 /* ViewController.swift in Sources */,
 				E31547C12733E0F600BD29E3 /* DateDemo.swift in Sources */,
 				047F1D70271AD07600F60636 /* AppDelegate.swift in Sources */,
