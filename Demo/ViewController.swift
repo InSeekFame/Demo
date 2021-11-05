@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 //      print("NJ COMMIT")
 //      print("tab")
         
-    navigationController?.pushViewController(getVC("Todo1VCID"), animated: true)
+//    navigationController?.pushViewController(getVC("Todo1VCID"), animated: true)
     
         setUI()
     }
@@ -30,9 +30,10 @@ class ViewController: UIViewController {
   func setUI(){
     
     titleList.append("Todo：泛型，日期，属性包装器")
-    
+    titleList.append("Todo：TableList")
     
     vcList.append(getVC("Todo1VCID"))
+    vcList.append(TableTodoVC())
     
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     tableView.delegate = self
