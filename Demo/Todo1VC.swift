@@ -19,6 +19,8 @@ class Todo1VC: UIViewController {
 
       view.backgroundColor = .white
       
+      MarkTodo.todo()
+      MarkTodo().name = "cl9421"
       
       ///日期Demo
 //      DateDemo().todo()
