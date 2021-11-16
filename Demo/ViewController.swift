@@ -32,10 +32,12 @@ class ViewController: UIViewController {
     titleList.append("Todo：泛型，日期，属性包装器")
     titleList.append("Todo：TableList")
     titleList.append("Todo：DatePicker")
+    titleList.append("WebView")
     
     vcList.append(getVC("Todo1VCID"))
     vcList.append(TableTodoVC())
     vcList.append(getVC("DatePickerVCID"))
+    vcList.append(getVC("WebDemoVCID"))
     
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     tableView.delegate = self
