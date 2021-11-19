@@ -1,31 +1,137 @@
 PODS:
   - Alamofire (5.4.4)
+  - Bugly (2.5.90)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CocoaAsyncSocket (7.6.5)
+  - CropViewController (2.6.0)
+  - ESPullToRefresh (2.9.3)
+  - FSPagerView (0.8.3)
+  - IQKeyboardManagerSwift (6.5.6)
+  - JCore (3.0.0)
+  - JPush (4.3.6):
+    - JCore (>= 2.0.0)
+  - JShare (1.9.1):
+    - JCore (>= 2.0.0)
+  - JXSegmentedView (1.2.7)
+  - Kingfisher (6.3.1)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.1):
+    - KTVCocoaHTTPServer
+  - MJRefresh (3.7.2)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
+  - PanModal (1.2.7)
+  - QCloudCore (5.9.4):
+    - QCloudCore/Default (= 5.9.4)
+  - QCloudCore/Default (5.9.4)
+  - QCloudCOSXML (5.9.4):
+    - QCloudCOSXML/Default (= 5.9.4)
+  - QCloudCOSXML/Default (5.9.4):
+    - QCloudCore (= 5.9.4)
   - SnapKit (5.0.1)
+  - swiftScan (1.2.1)
   - SwiftyJSON (5.0.1)
+  - SwiftyStoreKit (0.16.1)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - ZFPlayer (4.0.2):
+    - ZFPlayer/Core (= 4.0.2)
+  - ZFPlayer/Core (4.0.2)
+  - ZLPhotoBrowser (4.1.9):
+    - ZLPhotoBrowser/Core (= 4.1.9)
+  - ZLPhotoBrowser/Core (4.1.9)
 
 DEPENDENCIES:
   - Alamofire
+  - Bugly
+  - Charts
+  - CropViewController
+  - ESPullToRefresh
+  - FSPagerView
+  - IQKeyboardManagerSwift
+  - JCore
+  - JPush
+  - JShare
+  - JXSegmentedView
+  - Kingfisher
+  - KTVHTTPCache
+  - MJRefresh
   - Moya
+  - PanModal (~> 1.2.7)
+  - QCloudCOSXML
   - SnapKit
+  - swiftScan
   - SwiftyJSON
+  - SwiftyStoreKit
+  - VTMagic
+  - ZFPlayer
+  - ZLPhotoBrowser
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Bugly
+    - Charts
+    - CocoaAsyncSocket
+    - CropViewController
+    - ESPullToRefresh
+    - FSPagerView
+    - IQKeyboardManagerSwift
+    - JCore
+    - JPush
+    - JShare
+    - JXSegmentedView
+    - Kingfisher
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+    - MJRefresh
     - Moya
+    - PanModal
+    - QCloudCore
+    - QCloudCOSXML
     - SnapKit
+    - swiftScan
     - SwiftyJSON
+    - SwiftyStoreKit
+    - VTMagic
+    - ZFPlayer
+    - ZLPhotoBrowser
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CropViewController: 7093b39ec3cb508531b22d35773e06cecd7378d8
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  JCore: bcd22f442118a5a98f9f50dd3bfee52aa38ad483
+  JPush: 33807f0f612ffb21a84621f5429b21c17808a6ce
+  JShare: 384197bb8c98822b497c3fee0ced58ce5f58692e
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  QCloudCore: 3da61d1d1369c2c9fa3bf938af5dd38f777459e4
+  QCloudCOSXML: afc6c686f85a89e4a9f0b8adcb6368913828ad50
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  swiftScan: 0849e7d7c1c641384767a573ee8cb90b88d1ddd9
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  ZFPlayer: ffa31fb470d0634eb9e65efeca0296b1d742a524
+  ZLPhotoBrowser: 320aec37f64b0f58d40abd852956c64530011ea4
 
-PODFILE CHECKSUM: 05b15d5f9948d0e3d1d79cbe8c95ba1799f9026b
+PODFILE CHECKSUM: 672004dd6940b952712a5b06fc7ade6584b05e6f
 
 COCOAPODS: 1.8.4
